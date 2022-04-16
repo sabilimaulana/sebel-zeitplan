@@ -1,0 +1,4 @@
+.featuresImage {
+  height: calc(60vw * 1.25555555);
+  @apply relative mx-auto flex w-3/5 items-center justify-center rounded-[30px] xl:mx-0 xl:h-[678px] xl:w-[540px];
+}

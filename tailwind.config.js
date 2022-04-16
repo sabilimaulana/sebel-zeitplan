@@ -16,7 +16,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...fontFamily.sans],
+        primary: ['Poppins', ...fontFamily.sans],
+        inter: ['Inter', ...fontFamily.sans],
+        sans: ['Source Sans Pro', ...fontFamily.sans],
+        patua: ['Patua One', ...fontFamily.sans],
+        ibm: ['IBM Plex Mono', ...fontFamily.sans],
       },
       colors: {
         primary: {
@@ -32,7 +36,8 @@ module.exports = {
           800: withOpacityValue('--tw-color-primary-800'),
           900: withOpacityValue('--tw-color-primary-900'),
         },
-        dark: '#222222',
+        dark: '#0E144A',
+        zeitplan: '#FE5E44',
       },
       keyframes: {
         flicker: {

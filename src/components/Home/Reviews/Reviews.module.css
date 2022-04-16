@@ -1,0 +1,3 @@
+.reviewsCol {
+  @apply flex flex-col gap-[30px] xl:w-[369px];
+}

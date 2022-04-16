@@ -1,0 +1,7 @@
+.social {
+  @apply flex h-11 w-11 items-center justify-center rounded-full bg-zeitplan bg-opacity-5;
+}
+
+.footerMenu {
+  @apply font-sans text-base text-dark text-opacity-60;
+}

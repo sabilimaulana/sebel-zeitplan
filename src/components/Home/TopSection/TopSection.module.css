@@ -1,0 +1,5 @@
+.heroReview {
+  height: calc(75vw * 0.50499);
+
+  @apply relative mx-auto mt-20 w-3/4 xl:h-[253px] xl:w-[501px];
+}
